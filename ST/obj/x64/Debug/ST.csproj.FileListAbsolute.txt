@@ -1,0 +1,288 @@
+D:\ST\ST\bin\x64\Debug\ST.exe.config
+D:\ST\ST\bin\x64\Debug\ST.exe
+D:\ST\ST\bin\x64\Debug\ST.pdb
+D:\ST\ST\obj\x64\Debug\ST.csprojResolveAssemblyReference.cache
+D:\ST\ST\obj\x64\Debug\ST.Form1.resources
+D:\ST\ST\obj\x64\Debug\ST.Properties.Resources.resources
+D:\ST\ST\obj\x64\Debug\ST.csproj.GenerateResource.Cache
+D:\ST\ST\obj\x64\Debug\ST.exe.licenses
+D:\ST\ST\obj\x64\Debug\ST.exe
+D:\ST\ST\obj\x64\Debug\ST.pdb
+G:\Project SW\ST\ST\bin\x64\Debug\ST.exe.config
+G:\Project SW\ST\ST\obj\x64\Debug\ST.exe
+G:\Project SW\ST\ST\obj\x64\Debug\ST.pdb
+G:\Project SW\ST\ST\obj\x64\Debug\ST.csprojResolveAssemblyReference.cache
+G:\Project SW\ST\ST\obj\x64\Debug\ST.addbaraa.resources
+G:\Project SW\ST\ST\obj\x64\Debug\ST.aguulax.resources
+G:\Project SW\ST\ST\obj\x64\Debug\ST.editbara.resources
+G:\Project SW\ST\ST\obj\x64\Debug\ST.Form1.resources
+G:\Project SW\ST\ST\obj\x64\Debug\ST.hish.resources
+G:\Project SW\ST\ST\obj\x64\Debug\ST.huh.resources
+G:\Project SW\ST\ST\obj\x64\Debug\ST.login.resources
+G:\Project SW\ST\ST\obj\x64\Debug\ST.Properties.Resources.resources
+G:\Project SW\ST\ST\obj\x64\Debug\ST.shilj.resources
+G:\Project SW\ST\ST\obj\x64\Debug\ST.too.resources
+G:\Project SW\ST\ST\obj\x64\Debug\ST.zarax.resources
+G:\Project SW\ST\ST\obj\x64\Debug\ST.csproj.GenerateResource.Cache
+G:\Project SW\ST\ST\obj\x64\Debug\ST.exe.licenses
+G:\Project SW\ST\ST\bin\x64\Debug\ST.exe
+G:\Project SW\ST\ST\bin\x64\Debug\ST.pdb
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.Data.v12.1.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.Office.v12.1.Core.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.Printing.v12.1.Core.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.RichEdit.v12.1.Core.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.Utils.v12.1.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraBars.v12.1.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraEditors.v12.1.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraGrid.v12.1.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraLayout.v12.1.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraPrinting.v12.1.Design.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraPrinting.v12.1.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraTreeList.v12.1.dll
+G:\Project SW\ST\ST\bin\x64\Debug\System.Data.DataSetExtensions.dll
+G:\Project SW\ST\ST\bin\x64\Debug\System.Data.dll
+G:\Project SW\ST\ST\bin\x64\Debug\System.Deployment.dll
+G:\Project SW\ST\ST\bin\x64\Debug\System.dll
+G:\Project SW\ST\ST\bin\x64\Debug\System.Drawing.dll
+G:\Project SW\ST\ST\bin\x64\Debug\System.Windows.Forms.dll
+G:\Project SW\ST\ST\bin\x64\Debug\System.Xml.dll
+G:\Project SW\ST\ST\bin\x64\Debug\System.Xml.Linq.dll
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.Data.v12.1.xml
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.Office.v12.1.Core.xml
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.Printing.v12.1.Core.xml
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.RichEdit.v12.1.Core.xml
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.Utils.v12.1.xml
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraBars.v12.1.xml
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraEditors.v12.1.xml
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraGrid.v12.1.xml
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraLayout.v12.1.xml
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraPrinting.v12.1.xml
+G:\Project SW\ST\ST\bin\x64\Debug\DevExpress.XtraTreeList.v12.1.xml
+G:\Project SW\ST\ST\bin\x64\Debug\de\DevExpress.Data.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\es\DevExpress.Data.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ja\DevExpress.Data.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ru\DevExpress.Data.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\de\DevExpress.Printing.v12.1.Core.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\es\DevExpress.Printing.v12.1.Core.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ja\DevExpress.Printing.v12.1.Core.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ru\DevExpress.Printing.v12.1.Core.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\de\DevExpress.RichEdit.v12.1.Core.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\es\DevExpress.RichEdit.v12.1.Core.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ja\DevExpress.RichEdit.v12.1.Core.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ru\DevExpress.RichEdit.v12.1.Core.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\de\DevExpress.Utils.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\es\DevExpress.Utils.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ja\DevExpress.Utils.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ru\DevExpress.Utils.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\de\DevExpress.XtraBars.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\es\DevExpress.XtraBars.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ja\DevExpress.XtraBars.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ru\DevExpress.XtraBars.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\de\DevExpress.XtraEditors.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\es\DevExpress.XtraEditors.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ja\DevExpress.XtraEditors.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ru\DevExpress.XtraEditors.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\de\DevExpress.XtraGrid.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\es\DevExpress.XtraGrid.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ja\DevExpress.XtraGrid.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ru\DevExpress.XtraGrid.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\de\DevExpress.XtraLayout.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\es\DevExpress.XtraLayout.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ja\DevExpress.XtraLayout.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ru\DevExpress.XtraLayout.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\de\DevExpress.XtraPrinting.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\es\DevExpress.XtraPrinting.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ja\DevExpress.XtraPrinting.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ru\DevExpress.XtraPrinting.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\de\DevExpress.XtraTreeList.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\es\DevExpress.XtraTreeList.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ja\DevExpress.XtraTreeList.v12.1.resources.dll
+G:\Project SW\ST\ST\bin\x64\Debug\ru\DevExpress.XtraTreeList.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ST.exe.config
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.exe
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.pdb
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ST.exe
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ST.pdb
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.Data.v12.1.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.Office.v12.1.Core.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.Printing.v12.1.Core.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.RichEdit.v12.1.Core.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.Utils.v12.1.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraBars.v12.1.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraEditors.v12.1.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraGrid.v12.1.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraLayout.v12.1.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraPrinting.v12.1.Design.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraPrinting.v12.1.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraTreeList.v12.1.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\System.Data.DataSetExtensions.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\System.Data.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\System.Deployment.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\System.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\System.Drawing.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\System.Windows.Forms.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\System.Xml.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\System.Xml.Linq.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.Data.v12.1.xml
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.Office.v12.1.Core.xml
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.Printing.v12.1.Core.xml
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.RichEdit.v12.1.Core.xml
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.Utils.v12.1.xml
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraBars.v12.1.xml
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraEditors.v12.1.xml
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraGrid.v12.1.xml
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraLayout.v12.1.xml
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraPrinting.v12.1.xml
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\DevExpress.XtraTreeList.v12.1.xml
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\de\DevExpress.Data.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\es\DevExpress.Data.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ja\DevExpress.Data.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ru\DevExpress.Data.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\de\DevExpress.Printing.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\es\DevExpress.Printing.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ja\DevExpress.Printing.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ru\DevExpress.Printing.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\de\DevExpress.RichEdit.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\es\DevExpress.RichEdit.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ja\DevExpress.RichEdit.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ru\DevExpress.RichEdit.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\de\DevExpress.Utils.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\es\DevExpress.Utils.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ja\DevExpress.Utils.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ru\DevExpress.Utils.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\de\DevExpress.XtraBars.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\es\DevExpress.XtraBars.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ja\DevExpress.XtraBars.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ru\DevExpress.XtraBars.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\de\DevExpress.XtraEditors.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\es\DevExpress.XtraEditors.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ja\DevExpress.XtraEditors.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ru\DevExpress.XtraEditors.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\de\DevExpress.XtraGrid.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\es\DevExpress.XtraGrid.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ja\DevExpress.XtraGrid.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ru\DevExpress.XtraGrid.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\de\DevExpress.XtraLayout.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\es\DevExpress.XtraLayout.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ja\DevExpress.XtraLayout.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ru\DevExpress.XtraLayout.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\de\DevExpress.XtraPrinting.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\es\DevExpress.XtraPrinting.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ja\DevExpress.XtraPrinting.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ru\DevExpress.XtraPrinting.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\de\DevExpress.XtraTreeList.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\es\DevExpress.XtraTreeList.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ja\DevExpress.XtraTreeList.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\bin\x64\Debug\ru\DevExpress.XtraTreeList.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.csprojResolveAssemblyReference.cache
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.addbaraa.resources
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.aguulax.resources
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.editbara.resources
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.Form1.resources
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.hish.resources
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.huh.resources
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.login.resources
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.Properties.Resources.resources
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.shilj.resources
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.too.resources
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.zarax.resources
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.csproj.GenerateResource.Cache
+F:\Future Innovation\software projects\ST\ST\ST\obj\x64\Debug\ST.exe.licenses
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ST.exe.config
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.exe
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.pdb
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ST.exe
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ST.pdb
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.Data.v12.1.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.Office.v12.1.Core.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.Printing.v12.1.Core.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.RichEdit.v12.1.Core.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.Utils.v12.1.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraBars.v12.1.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraEditors.v12.1.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraGrid.v12.1.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraLayout.v12.1.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraPrinting.v12.1.Design.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraPrinting.v12.1.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraTreeList.v12.1.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\System.Data.DataSetExtensions.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\System.Data.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\System.Deployment.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\System.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\System.Drawing.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\System.Windows.Forms.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\System.Xml.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\System.Xml.Linq.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.Data.v12.1.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.Office.v12.1.Core.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.Printing.v12.1.Core.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.RichEdit.v12.1.Core.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.Utils.v12.1.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraBars.v12.1.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraEditors.v12.1.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraGrid.v12.1.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraLayout.v12.1.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraPrinting.v12.1.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\DevExpress.XtraTreeList.v12.1.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\de\DevExpress.Data.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\es\DevExpress.Data.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ja\DevExpress.Data.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ru\DevExpress.Data.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\de\DevExpress.Printing.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\es\DevExpress.Printing.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ja\DevExpress.Printing.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ru\DevExpress.Printing.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\de\DevExpress.RichEdit.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\es\DevExpress.RichEdit.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ja\DevExpress.RichEdit.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ru\DevExpress.RichEdit.v12.1.Core.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\de\DevExpress.Utils.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\es\DevExpress.Utils.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ja\DevExpress.Utils.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ru\DevExpress.Utils.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\de\DevExpress.XtraBars.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\es\DevExpress.XtraBars.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ja\DevExpress.XtraBars.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ru\DevExpress.XtraBars.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\de\DevExpress.XtraEditors.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\es\DevExpress.XtraEditors.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ja\DevExpress.XtraEditors.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ru\DevExpress.XtraEditors.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\de\DevExpress.XtraGrid.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\es\DevExpress.XtraGrid.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ja\DevExpress.XtraGrid.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ru\DevExpress.XtraGrid.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\de\DevExpress.XtraLayout.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\es\DevExpress.XtraLayout.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ja\DevExpress.XtraLayout.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ru\DevExpress.XtraLayout.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\de\DevExpress.XtraPrinting.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\es\DevExpress.XtraPrinting.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ja\DevExpress.XtraPrinting.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ru\DevExpress.XtraPrinting.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\de\DevExpress.XtraTreeList.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\es\DevExpress.XtraTreeList.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ja\DevExpress.XtraTreeList.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\ru\DevExpress.XtraTreeList.v12.1.resources.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.csprojResolveAssemblyReference.cache
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.addbaraa.resources
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.aguulax.resources
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.editbara.resources
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.Form1.resources
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.hish.resources
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.huh.resources
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.login.resources
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.Properties.Resources.resources
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.shilj.resources
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.too.resources
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.zarax.resources
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.csproj.GenerateResource.Cache
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\obj\x64\Debug\ST.exe.licenses
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\MySql.Data.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\MySql.Data.Entity.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\MySql.Data.Entity.EF6.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\MySql.Fabric.Plugin.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\MySql.Web.dll
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\MySql.Data.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\MySql.Data.Entity.EF6.xml
+F:\Future Innovation\software projects\ST\ST230114\ST\ST\bin\x64\Debug\MySql.Web.xml

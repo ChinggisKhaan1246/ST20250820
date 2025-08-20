@@ -1,0 +1,262 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Collections.Specialized;
+using System.Windows.Forms;
+using DevExpress.XtraGrid.Views.Grid;
+using DevExpress.LookAndFeel;
+using DevExpress.XtraEditors;
+using DevExpress.XtraPrinting;
+using DevExpress.XtraPrintingLinks;
+using DevExpress.XtraGrid;
+using DevExpress.XtraGrid.Columns;
+using DevExpress.Utils;
+using DevExpress.XtraReports.UI;
+using Newtonsoft.Json;
+using System.Security.Cryptography;
+using System.Net.NetworkInformation;
+using System.Management;
+using System.Diagnostics;
+using System.Web;
+
+namespace ST
+{
+    public partial class redbook : Form
+    {
+        public redbook()
+        {
+            InitializeComponent();
+         
+
+            gridView2.CustomUnboundColumnData += (sender, e) =>
+            {
+                GridView view = sender as GridView;
+                if (e.Column.FieldName == "dd" && e.IsGetData)
+                    e.Value = view.GetRowHandle(e.ListSourceRowIndex) + 1;
+            };
+        }
+        dataSetFill ds = new dataSetFill();
+        public void redbook_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                gridControl2.DataSource = ds.gridFill("getdaily", "status=9");
+                gridView2.Columns["hiisen"].AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+                gridView2.OptionsView.RowAutoHeight = true;
+                gridView2.Columns["weather"].AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+                gridView2.OptionsView.RowAutoHeight = true;
+               
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show(ee.ToString());
+            }
+            finally 
+            {
+                gridControl2.RefreshDataSource();
+            }
+        }
+
+        private void gridView1_CustomUnboundColumnData(object sender, DevExpress.XtraGrid.Views.Base.CustomColumnDataEventArgs e)
+        {
+           
+        }
+
+        private void gridView2_CustomUnboundColumnData(object sender, DevExpress.XtraGrid.Views.Base.CustomColumnDataEventArgs e)
+        {
+            
+        }
+
+        private void projectName_EditValueChanged(object sender, EventArgs e)
+        {
+            gridView2.ActiveFilterString = "projectName LIKE '%" + projectName.Text + "%'";
+        }
+
+        private void projectnameFilter_EditValueChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                projectName.Text = projectnameFilter.Text;
+                projectID.Text = projectnameFilter.EditValue.ToString();
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show(ee.ToString());
+            }
+            finally
+            {
+ 
+            }
+
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void simpleButton2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (projectName.Text != "")
+                {
+
+                    adddaily addreport = new adddaily(this);
+                    addreport.projectID.Text = projectID.Text;
+                    addreport.projectName.Text = projectName.Text;
+                    addreport.ognoo.DateTime = DateTime.Now;
+                    addreport.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Ялгах хэсгээс төсөлөө сонгоно уу.");
+                }
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show(ee.ToString());
+            }
+            finally 
+            {
+ 
+            }
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                dataSetFill dc = new dataSetFill();
+                string id = gridView2.GetFocusedRowCellValue("id").ToString();
+                DialogResult dr = MessageBox.Show("Тайлангийн мэдээллийг утсгах уу?", "Анхаар", MessageBoxButtons.YesNo);
+                if (dr == System.Windows.Forms.DialogResult.Yes)
+                {
+                    var data = new NameValueCollection();
+                    data["deleteid"] = id;
+                    data["ali_table"] = "daily";
+                    MessageBox.Show(dc.exec_command("deleteAll", data));
+                    //f.saveLogg(f.salerID.Text, f.salerName.Text, "Агуулахын бүртгэлээс устгасан");
+               
+                }
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show(ee.ToString());
+            }
+            finally
+            {
+                redbook_Load(sender, e);
+            }
+        }
+
+        private void фотоЗурагОруулахToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (projectName.Text != "")
+                {
+                    fdailypic dpic = new fdailypic();
+                    dpic.projectID.Text = projectID.Text;
+                    dpic.label2.Text =    projectName.Text;
+                    dpic.label3.Text =    gridView2.GetFocusedRowCellValue("hiisen").ToString();
+                    dpic.daily.Text =     gridView2.GetFocusedRowCellValue("id").ToString();
+                    dpic.engname.Text =   gridView2.GetFocusedRowCellValue("engID").ToString();
+                    dpic.xabname.Text =   gridView2.GetFocusedRowCellValue("xabID").ToString();
+                    dpic.daamal.Text =    gridView2.GetFocusedRowCellValue("daamalID").ToString();
+                    dpic.weather.Text =   gridView2.GetFocusedRowCellValue("weather").ToString();
+                    dpic.label10.Text =   gridView2.GetFocusedRowCellValue("ognoo").ToString()+" -c "+gridView2.GetFocusedRowCellValue("ognoo").ToString();
+                    dpic.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Ялгах хэсгээс төсөл сонгоно уу. ");
+                }
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show("Төсөл сонгоно уу. "+ee.ToString());
+            }
+            finally { }
+            
+        }
+
+        private void gridControl2_DoubleClick(object sender, EventArgs e)
+        {
+            try
+            {
+                фотоЗурагОруулахToolStripMenuItem_Click(sender, e);
+                
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show(ee.ToString());
+            }
+            finally { }
+        }
+
+        private void gridControl2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                try
+                {
+                    string id = gridView2.GetFocusedRowCellValue("id").ToString(); //!= null ? gridView2.GetFocusedRowCellValue("id").ToString() : string.Empty;
+                    string ognoo = Convert.ToDateTime(gridView2.GetFocusedRowCellValue("ognoo").ToString()).ToString("yyyy-MM-dd");// != null ? gridView2.GetFocusedRowCellValue("ognoo").ToString() : string.Empty;
+                    DateTime ognooDD = Convert.ToDateTime(gridView2.GetFocusedRowCellValue("ognooD").ToString());// != null ? gridView2.GetFocusedRowCellValue("ognooD").ToString() : string.Empty;
+                    string hiisen = gridView2.GetFocusedRowCellValue("hiisen").ToString(); //!= null ? gridView2.GetFocusedRowCellValue("hiisen").ToString() : string.Empty;
+                    string weather = gridView2.GetFocusedRowCellValue("weather").ToString(); //!= null ? gridView2.GetFocusedRowCellValue("weather").ToString() : string.Empty;
+                    string zorchil = gridView2.GetFocusedRowCellValue("zorchil").ToString(); //!= null ? gridView2.GetFocusedRowCellValue("zorchil").ToString() : string.Empty;
+                    string mechanism = gridView2.GetFocusedRowCellValue("mechanism").ToString(); //!= null ? gridView2.GetFocusedRowCellValue("mechanism").ToString() : string.Empty;
+                    string margaash = gridView2.GetFocusedRowCellValue("margaash").ToString(); //!= null ? gridView2.GetFocusedRowCellValue("margaash").ToString() : string.Empty;
+                    string ajilchid = gridView2.GetFocusedRowCellValue("ajilchid").ToString(); //!= null ? gridView2.GetFocusedRowCellValue("margaash").ToString() : string.Empty;
+
+                    string ognooD = ognooDD.ToString("yyyy-MM-dd");
+                   
+                    var data = new System.Collections.Specialized.NameValueCollection();
+                    data["id"] = id;
+                    data["ognoo"] = ognoo;
+                    data["ognooD"] = ognooD;
+                    data["hiisen"] = hiisen;
+                    data["weather"] = weather;
+                    data["zorchil"] = zorchil;
+                    data["mechanism"] = mechanism;
+                    data["margaash"] = margaash;
+                    data["ajilchid"] = ajilchid;
+
+                    dataSetFill ds = new dataSetFill();
+                    string response = ds.exec_command("editdaily", data);
+
+                    if (!string.IsNullOrEmpty(response) && response.Contains("success"))
+                    {
+                        MessageBox.Show("Амжилттай хадгаллаа!", "Мэдээлэл", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        gridView2.SetFocusedRowCellValue("ognoo", ognoo);
+                        gridView2.SetFocusedRowCellValue("ognooD", ognooD);
+                        gridView2.SetFocusedRowCellValue("hiisen", hiisen);
+                        gridView2.SetFocusedRowCellValue("weather", weather);
+                        gridView2.SetFocusedRowCellValue("zorchil", zorchil);
+                        gridView2.SetFocusedRowCellValue("mechanism", mechanism);
+                        gridView2.SetFocusedRowCellValue("margaash", margaash);
+                        gridView2.SetFocusedRowCellValue("ajilchid", ajilchid);
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Хадгалах явцад алдаа гарлаа: " + response, "Алдаа", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Алдааны мэдэгдэл харуулах
+                    MessageBox.Show("Алдаа гарлаа: " + ex.Message, "Алдаа", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+    }
+}
