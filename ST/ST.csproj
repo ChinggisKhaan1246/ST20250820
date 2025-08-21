@@ -694,11 +694,11 @@
     <Compile Include="devices.Designer.cs">
       <DependentUpon>devices.cs</DependentUpon>
     </Compile>
-    <Compile Include="reportA3.cs">
+    <Compile Include="reportfinanceAll.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="reportA3.Designer.cs">
-      <DependentUpon>reportA3.cs</DependentUpon>
+    <Compile Include="reportfinanceAll.Designer.cs">
+      <DependentUpon>reportfinanceAll.cs</DependentUpon>
     </Compile>
     <Compile Include="reportalban.cs">
       <SubType>Component</SubType>
@@ -918,8 +918,8 @@
     <EmbeddedResource Include="FUTUREINNOVATION.resx">
       <DependentUpon>FUTUREINNOVATION.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="reportA3.resx">
-      <DependentUpon>reportA3.cs</DependentUpon>
+    <EmbeddedResource Include="reportfinanceAll.resx">
+      <DependentUpon>reportfinanceAll.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="reportA5.resx">
       <DependentUpon>reportA5.cs</DependentUpon>

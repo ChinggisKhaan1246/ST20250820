@@ -659,7 +659,6 @@ D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\obj\Deb
 D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\obj\Debug\ST.ita.resources
 D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\obj\Debug\ST.income.resources
 D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\obj\Debug\ST.FUTUREINNOVATION.resources
-D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\obj\Debug\ST.reportA3.resources
 D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\obj\Debug\ST.reportA5.resources
 D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\obj\Debug\ST.reportdailypic.resources
 D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\obj\Debug\ST.reportM2.resources
@@ -691,3 +690,4 @@ D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\obj\Deb
 D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\obj\Debug\RdlCompile.compiled
 D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\bin\Debug\DS.exe
 D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\bin\Debug\DS.pdb
+D:\2 future\software projects\etusul.com\desktop\DS\ST241221\ST241222\ST\obj\Debug\ST.reportfinanceAll.resources

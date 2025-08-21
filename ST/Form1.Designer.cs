@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.AddGeree = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
@@ -40,6 +40,8 @@
             this.Addincome = new System.Windows.Forms.ToolStripMenuItem();
             this.Addcost = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.дангаарToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.бүгдToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.finish = new System.Windows.Forms.ToolStripMenuItem();
@@ -310,7 +312,7 @@
             this.toolStripSeparator2,
             this.deleteGeree});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(180, 258);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(180, 280);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // AddGeree
@@ -369,11 +371,30 @@
             // 
             // toolStripMenuItem7
             // 
+            this.toolStripMenuItem7.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.дангаарToolStripMenuItem,
+            this.бүгдToolStripMenuItem});
             this.toolStripMenuItem7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem7.Image")));
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
             this.toolStripMenuItem7.Size = new System.Drawing.Size(179, 22);
             this.toolStripMenuItem7.Text = "&Санхүүжилт";
             this.toolStripMenuItem7.Click += new System.EventHandler(this.toolStripMenuItem7_Click);
+            // 
+            // дангаарToolStripMenuItem
+            // 
+            this.дангаарToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("дангаарToolStripMenuItem.Image")));
+            this.дангаарToolStripMenuItem.Name = "дангаарToolStripMenuItem";
+            this.дангаарToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.дангаарToolStripMenuItem.Text = "Энэ төслөөр";
+            this.дангаарToolStripMenuItem.Click += new System.EventHandler(this.дангаарToolStripMenuItem_Click);
+            // 
+            // бүгдToolStripMenuItem
+            // 
+            this.бүгдToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("бүгдToolStripMenuItem.Image")));
+            this.бүгдToolStripMenuItem.Name = "бүгдToolStripMenuItem";
+            this.бүгдToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.бүгдToolStripMenuItem.Text = "Бүх төслөөр";
+            this.бүгдToolStripMenuItem.Click += new System.EventHandler(this.бүгдToolStripMenuItem_Click);
             // 
             // toolStripMenuItem5
             // 
@@ -1063,9 +1084,9 @@
             // 
             this.gridControl2.ContextMenuStrip = this.contextMenuStrip3;
             this.gridControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            gridLevelNode2.RelationName = "Level1";
+            gridLevelNode1.RelationName = "Level1";
             this.gridControl2.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode2});
+            gridLevelNode1});
             this.gridControl2.Location = new System.Drawing.Point(0, 0);
             this.gridControl2.MainView = this.gridView2;
             this.gridControl2.Name = "gridControl2";
@@ -2505,6 +2526,8 @@
         private DevExpress.XtraNavBar.NavBarItem navBarItem22;
         private DevExpress.XtraNavBar.NavBarItem navBarItem23;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
+        private System.Windows.Forms.ToolStripMenuItem дангаарToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem бүгдToolStripMenuItem;
     }
 }
 

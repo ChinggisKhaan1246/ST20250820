@@ -1667,6 +1667,12 @@ namespace ST
         }
         private void toolStripMenuItem7_Click(object sender, EventArgs e)
         {
+           
+
+        }
+
+        private void дангаарToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             try
             {
                 int rowHandle = gridView1.FocusedRowHandle;
@@ -1689,29 +1695,27 @@ namespace ST
                 decimal baritsaa = ToDecimalSafe(gridView1.GetRowCellValue(rowHandle, "guitsetgel"));
                 decimal income = ToDecimalSafe(gridView1.GetRowCellValue(rowHandle, "income"));
 
-
-
                 // Report үүсгээд утгуудыг оноох
                 reportfinance rf = new reportfinance();
 
                 rf.projectName.Text = name;
-                rf.total.Text = budget.ToString("#,##0.00");
+                rf.total.Text = budget.ToString("#,##0");
                 rf.gereeNo.Text = gereeD;
                 rf.ognooG.Text = ognooG;
                 rf.ognoo1.Text = begin;
                 rf.ognoo2.Text = end;
-                rf.zahi.Text = zahilagch.ToString("#,##0.00");
-                rf.zohi.Text = authorT.ToString("#,##0.00");
-                rf.zurag.Text = injhaiT.ToString("#,##0.00");
-                rf.baritsaa.Text = baritsaa.ToString("#,##0.00");
-                
+                rf.zahi.Text = zahilagch.ToString("#,##0");
+                rf.zohi.Text = authorT.ToString("#,##0");
+                rf.zurag.Text = injhaiT.ToString("#,##0");
+                rf.baritsaa.Text = baritsaa.ToString("#,##0");
+
                 decimal mytotal = budget - zahilagch - authorT - injhaiT - baritsaa;
                 decimal uld = mytotal - income;
-                rf.mytotal.Text = mytotal.ToString("#,##0.00");
+                rf.mytotal.Text = mytotal.ToString("#,##0");
 
 
-                rf.urid.Text = income.ToString("#,##0.00");
-                rf.uld.Text = uld.ToString("#,##0.00");
+                rf.urid.Text = income.ToString("#,##0");
+                rf.uld.Text = uld.ToString("#,##0");
 
                 rf.ShowPreview();
             }
@@ -1719,8 +1723,84 @@ namespace ST
             {
                 MessageBox.Show("Алдаа гарлаа: " + exx.Message, "Алдаа", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
+
+        private void бүгдToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            reportfinanceAll rf = new reportfinanceAll();
+            List<ReportData> reportDataList = new List<ReportData>();
+
+            for (int i = 0; i < gridView1.RowCount; i++)
+            {
+                decimal budget = Convert.ToDecimal(gridView1.GetRowCellValue(i, "budget"));
+                decimal income = Convert.ToDecimal(gridView1.GetRowCellValue(i, "income"));
+                decimal injhaiT = Convert.ToDecimal(gridView1.GetRowCellValue(i, "injhaiT"));
+                decimal zahiT = Convert.ToDecimal(gridView1.GetRowCellValue(i, "zahialagchT"));
+                decimal zohiT = Convert.ToDecimal(gridView1.GetRowCellValue(i, "authorT"));
+                decimal baritsaa = Convert.ToDecimal(gridView1.GetRowCellValue(i, "guitsetgel"));
+                decimal cost = Convert.ToDecimal(gridView1.GetRowCellValue(i, "cost"));
+
+
+                decimal uldegdel = budget - (income + zohiT + zahiT + injhaiT + baritsaa);
+
+                reportDataList.Add(new ReportData
+                {
+                    classDDR = Convert.ToString(gridView1.GetRowCellValue(i, "dd")),
+                    classProjectName = Convert.ToString(gridView1.GetRowCellValue(i, "projectName")),
+                    classbudgetR = budget,
+                    classgereeNo = Convert.ToString(gridView1.GetRowCellValue(i, "gereeNo")),
+                    classzahi = zahiT,
+                    classzohi = zohiT,
+                    classinjhaiT = injhaiT,
+                    classbaritsaa = baritsaa,
+                    classincome = income,
+                    classcost = cost,
+                    classuld = uldegdel
+                });
+            }
+
+            // Тайланд өгөгдөл оноох
+            rf.DataSource = reportDataList;
+
+            // Bindings
+            rf.dd.DataBindings.Add(new XRBinding("Text", null, "classDDR"));
+            rf.projectName.DataBindings.Add(new XRBinding("Text", null, "classProjectName"));
+            rf.budget.DataBindings.Add(new XRBinding("Text", null, "classbudgetR", "{0:#,##0}"));
+            rf.gereeNo.DataBindings.Add(new XRBinding("Text", null, "classgereeNo"));
+            rf.zahi.DataBindings.Add(new XRBinding("Text", null, "classzahi", "{0:#,##0}"));
+            rf.zohi.DataBindings.Add(new XRBinding("Text", null, "classzohi", "{0:#,##0}"));
+            rf.injhai.DataBindings.Add(new XRBinding("Text", null, "classinjhaiT", "{0:#,##0}"));
+            rf.costs.DataBindings.Add(new XRBinding("Text", null, "classcost", "{0:#,##0}"));
+            rf.baritsaa.DataBindings.Add(new XRBinding("Text", null, "classbaritsaa", "{0:#,##0}"));
+            rf.income.DataBindings.Add(new XRBinding("Text", null, "classincome", "{0:#,##0}"));
+            rf.uld.DataBindings.Add(new XRBinding("Text", null, "classuld", "{0:#,##0}"));
+
+            // Нийлбэрүүдийг бодох
+            decimal sumbudget = reportDataList.Sum(x => x.classbudgetR);
+            decimal sumzahi = reportDataList.Sum(x => x.classzahi);
+            decimal sumzohi = reportDataList.Sum(x => x.classzohi);
+            decimal suminjhai = reportDataList.Sum(x => x.classinjhaiT);
+            decimal sumcost = reportDataList.Sum(x => x.classcost);
+            decimal sumincome = reportDataList.Sum(x => x.classincome);
+            decimal sumbaritsaa = reportDataList.Sum(x => x.classbaritsaa);
+            decimal sumuld = reportDataList.Sum(x => x.classuld);
+
+            // Footer label-д оноох
+            rf.sumbudget.Text = sumbudget.ToString("#,##0");
+            rf.sumzahi.Text = sumzahi.ToString("#,##0");
+            rf.sumzohi.Text = sumzohi.ToString("#,##0");
+            rf.suminjhai.Text = suminjhai.ToString("#,##0");
+            rf.sumcost.Text = sumcost.ToString("#,##0");
+            rf.sumincome.Text = sumincome.ToString("#,##0");
+            rf.sumbaritsaa.Text = sumbaritsaa.ToString("#,##0");
+            rf.sumuldegdel.Text = sumuld.ToString("#,##0");
+            rf.comName.Text = userInfo.comName;
+
+            // Preview гаргах
+            rf.ShowPreview();
+        }
+
+
 
        
       
