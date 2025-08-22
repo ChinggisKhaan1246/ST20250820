@@ -312,7 +312,7 @@
             this.toolStripSeparator2,
             this.deleteGeree});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(180, 280);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(180, 258);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // AddGeree
@@ -384,7 +384,7 @@
             // 
             this.дангаарToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("дангаарToolStripMenuItem.Image")));
             this.дангаарToolStripMenuItem.Name = "дангаарToolStripMenuItem";
-            this.дангаарToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.дангаарToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.дангаарToolStripMenuItem.Text = "Энэ төслөөр";
             this.дангаарToolStripMenuItem.Click += new System.EventHandler(this.дангаарToolStripMenuItem_Click);
             // 
@@ -392,7 +392,7 @@
             // 
             this.бүгдToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("бүгдToolStripMenuItem.Image")));
             this.бүгдToolStripMenuItem.Name = "бүгдToolStripMenuItem";
-            this.бүгдToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.бүгдToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.бүгдToolStripMenuItem.Text = "Бүх төслөөр";
             this.бүгдToolStripMenuItem.Click += new System.EventHandler(this.бүгдToolStripMenuItem_Click);
             // 
@@ -1997,6 +1997,7 @@
             // navBarGroup1
             // 
             this.navBarGroup1.Caption = "Компани";
+            this.navBarGroup1.Expanded = true;
             this.navBarGroup1.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem1),
             new DevExpress.XtraNavBar.NavBarItemLink(this.navBarItem2),
